@@ -1,7 +1,8 @@
 import React from 'react';
+import './App.css';
 
 const App = () => (
-  <div>
+  <div className='butts'>
     <p>Let's do marnifersto???</p>
     <div class="manifesto">
       <h1>block boring people</h1>
