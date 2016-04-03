@@ -19,8 +19,7 @@
   background-color: #fffa8a;
   display: block;
   padding-left: 57.5px !important;
-  font-family: 'alphaecho';
-  text-transform: uppercase;
+  font-family: "impactlabelreversed";
   font-size: 120px;
 }
 
@@ -31,6 +30,19 @@
   padding-top: 2.5px;
   padding-bottom: 2.5px;
   padding-left: 57.5px;
-  font-family: "Ayosmonika";
-  font-size: 60px;
+  font-family: monospace;
+  font-size: 40px;
+}
+
+.twittershare {
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #fffa8a;
+  font-family: sans-serif;
+}
+
+.tableofcontents {
+
 }
