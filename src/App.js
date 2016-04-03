@@ -4,7 +4,7 @@ import styles from './App.module.css';
 const App = () => (
   <div className={styles.butts}>
     <p>Let's do marnifersto???</p>
-    <div class="manifesto">
+    <div>
       <h1>block boring people</h1>
       <h1>there is no authentic self</h1>
       <h1>you are performance art</h1>
