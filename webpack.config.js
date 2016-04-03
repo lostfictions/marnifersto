@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'eval',
   entry: [
     'webpack-dev-server/client?http://localhost:3000',
-    'webpack/hot/only-dev-server',
+    'webpack/hot/dev-server',
     './src/index'
   ],
   output: {
@@ -18,11 +18,13 @@ module.exports = {
   ],
   module: {
     loaders: [
+      //Loader for JS and JSX
       {
         test: /\.jsx?$/,
         loaders: ['babel'],
         include: path.join(__dirname, 'src')
       },
+      //Loader for non-modules css
       {
         test: /^((?!\.module).)*\.css$/,
         loaders: [
@@ -30,6 +32,7 @@ module.exports = {
           'css-loader?sourceMap'
         ]
       },
+      //Loader for css modules
       {
         test: /\.module\.css$/,
         loaders: [

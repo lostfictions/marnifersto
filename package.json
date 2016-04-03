@@ -7,11 +7,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lostfictions/portrait-dialog-editor.git"
+    "url": "https://github.com/lostfictions/marnifersto.git"
   },
   "author": "s",
   "license": "GPL-3.0",
-  "homepage": "https://github.com/lostfictions/portrait-dialog-editor.git",
+  "homepage": "https://github.com/lostfictions/marnifersto.git",
   "devDependencies": {
     "babel-core": "^6.3.26",
     "babel-eslint": "^6.0.2",
