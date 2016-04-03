@@ -20,6 +20,11 @@ p {
   -webkit-margin-end: 0px;
 }
 
+@font-face {
+  font-family: abusivepencil;
+  src: url(./styles/abusivepencil.ttf);
+}
+
 .butts {
   line-height: 1;
   margin: 0px;
@@ -28,7 +33,7 @@ p {
   height: 100%;
 }
 
-.marniferstointroduction {
+.introduction {
   position:fixed !important;
   position:absolute;
   top:0;
@@ -38,16 +43,16 @@ p {
   background-color: #000575;
 }
 
-.marniferstoheadline {
+.headline {
   background-color: #fffa8a;
   display: block;
   padding-left: 57.5px !important;
-  font-family: "abusive pencil";
+  font-family: "abusivepencil";
   text-transform: uppercase;
   font-size: 120px;
 }
 
-.marniferstobyline {
+.byline {
   background-color: #55267C;
   color: #fff;
   display: block;
