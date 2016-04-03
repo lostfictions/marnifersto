@@ -1,41 +1,13 @@
-html {
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  height: auto;
-}
-
-body {
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
-  height: auto;
-}
-
-p {
-	display: block;
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-}
-
-@font-face {
-  font-family: "abusivepencil";
-  src: url("./styles/abusivepencil.ttf");
-}
-
 .butts {
   line-height: 1;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
 }
 
 .introduction {
-  position:fixed !important;
-  position:absolute;
+  position:fixed;
   top:0;
   right:0;
   bottom:0;
@@ -47,7 +19,7 @@ p {
   background-color: #fffa8a;
   display: block;
   padding-left: 57.5px !important;
-  font-family: "abusivepencil";
+  font-family: 'alphaecho';
   text-transform: uppercase;
   font-size: 120px;
 }

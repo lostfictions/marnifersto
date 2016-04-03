@@ -28,20 +28,23 @@ module.exports = {
       {
         test: /^((?!\.module).)*\.css$/,
         loaders: [
-          'style-loader',
-          'css-loader?sourceMap'
+          'style',
+          'css?sourceMap'
         ]
       },
       //Loader for css modules
       {
         test: /\.module\.css$/,
         loaders: [
-          'style-loader',
-          'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!'
+          'style',
+          'css?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!'
         ]
       },
       //Loader for fonts
-      { test: /\.(woff2?|ttf|eot|svg)$/, loader: 'file-loader' }
+      {
+        test: /\.(woff2?|ttf|eot|svg)$/,
+        loader: 'url?limit=65000'
+      }
     ]
   }
 };
