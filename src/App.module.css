@@ -2,25 +2,58 @@ html {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 body {
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	height: 100%;
+  height: auto;
 }
 
 p {
-	
+	display: block;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 
 .butts {
-  background-color: #fffa8a;
-  line-height: 4;
+  line-height: 1;
   margin: 0px;
   padding: 0px;
   width: 100%;
   height: 100%;
+}
+
+.marniferstointroduction {
+  position:fixed !important;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background-color: #000575;
+}
+
+.marniferstoheadline {
+  background-color: #fffa8a;
+  display: block;
+  padding-left: 57.5px !important;
+  font-family: "abusive pencil";
+  text-transform: uppercase;
+  font-size: 120px;
+}
+
+.marniferstobyline {
+  background-color: #55267C;
+  color: #fff;
+  display: block;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  padding-left: 57.5px;
+  font-family: "Ayosmonika";
+  font-size: 60px;
 }
