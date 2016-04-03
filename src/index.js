@@ -11,9 +11,7 @@ const render = () => {
 render();
 
 if(module.hot) {
-  module.hot.accept('./App', () => {
-    setTimeout(() => render());
-  });
+  module.hot.accept('./App', () => render());
 }
 
 
