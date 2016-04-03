@@ -39,7 +39,9 @@ module.exports = {
           'style-loader',
           'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!'
         ]
-      }
+      },
+      //Loader for fonts
+      { test: /\.(woff2?|ttf|eot|svg)$/, loader: 'file-loader' }
     ]
   }
 };

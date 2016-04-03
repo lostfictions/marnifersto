@@ -21,8 +21,8 @@ p {
 }
 
 @font-face {
-  font-family: abusivepencil;
-  src: url(./styles/abusivepencil.ttf);
+  font-family: "abusivepencil";
+  src: url("./styles/abusivepencil.ttf");
 }
 
 .butts {
